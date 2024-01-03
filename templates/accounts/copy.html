@@ -1,0 +1,49 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ectype Accounts Copy</title>
+    <link href="https://res.cloudinary.com/doxlqbv7r/raw/upload/v1697640758/Templates/index_ovivr4.css" rel="stylesheet" />
+  </head>
+  <body>
+    {% block content %}
+      <section>
+        <div class="centered">
+          <img src="https://res.cloudinary.com/doxlqbv7r/image/upload/c_fit,h_150,w_150/v1692624680/Templates/logo__black_j4r8k5.png"
+              class="logo-image"
+              alt="Ectype logo"/>
+        </div>
+        <div class="container">
+          <h1>Hi {{ receiver_name }},</h1>
+          <p>You have just copied your trading accounts together successfully.</p>
+          <p>Thank you for trusting us!</p>
+          <p>Log into <a href="https://ectype.finance">Ectype</a> and continue operations seamlessly on the platform.</p>
+        </div>
+        <div class="container">
+          <p>
+            If you have any questions, contact us at <a href="mailto:support@ectype.finance">Ectype Support</a>.
+          </p>
+        </div>
+        <div class="container">
+          <footer>
+            <p>Cheers, Ectype Team</p>
+          </footer>
+        </div>
+      </section>
+    {% endblock content %}
+  </body>
+</html>
+<style>
+  .centered {
+    text-align: center;
+  }
+
+  .centered img {
+    display: block;
+    margin: 0 auto;
+  }
+</style>

@@ -1,0 +1,51 @@
+{% load i18n %}
+{% load static %}
+{% block subject %}
+  Thank you! Ectype Account Activation
+{% endblock subject %}
+
+{% block html_body %}
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="x-ua-compatible" content="ie=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Ectype Account Activation</title>
+      <link href="https://res.cloudinary.com/doxlqbv7r/raw/upload/v1697640758/Templates/index_ovivr4.css" rel="stylesheet" />
+      <style>
+        .token {
+          font-size: 30px;
+          font-weight: bold;
+          letter-spacing: 3px;
+        }
+      </style>
+    </head>
+    <body>
+      <section>
+        <div style="text-align: center; display: flex; justify-content: center;">
+          <img src="https://res.cloudinary.com/doxlqbv7r/image/upload/c_fit,h_150,w_150/v1692624680/Templates/logo__black_j4r8k5.png"
+              class="logo-image"
+              alt="Ectype logo" />
+        </div>
+        <div class="container">
+          <p>You're receiving this email because you need to finish the activation process on <a href="https://ectype.finance">Ectype</a></p>
+          <p>Your activation token is </p>
+          <p class="token">{{ token }}</p>
+          <p>Thank you for trusting us!</p>
+        </div>
+        <div class="container">
+          <p>
+            If you have any questions, contact us at <a href="mailto:support@ectype.finance">Ectype Support</a>.
+          </p>
+        </div>
+        <div class="container">
+          <footer>
+            <p>Cheers 🎉, Ectype Team</p>
+          </footer>
+        </div>
+      </section>
+    </body>
+  </html>
+</html>
+{% endblock html_body %}

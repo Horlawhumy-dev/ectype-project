@@ -1,0 +1,5 @@
+{
+    "python.analysis.autoImportCompletions": true,
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/7dad9b52-3c06-487b-be43-088b0b02608f/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/ectypetest",
+    "appService.deploySubpath": "."
+}

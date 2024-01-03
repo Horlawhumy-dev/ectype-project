@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ectype Referral Payouts</title>
+    <link href="https://res.cloudinary.com/doxlqbv7r/raw/upload/v1697640758/Templates/index_ovivr4.css" rel="stylesheet" />
+  </head>
+  <body>
+    {% block content %}
+      <section>
+        <div class="centered">
+          <img src="https://res.cloudinary.com/doxlqbv7r/image/upload/c_fit,h_150,w_150/v1692624680/Templates/logo__black_j4r8k5.png"
+              class="logo-image"
+              alt="Ectype logo"/>
+        </div>
+        <div class="container">
+          <h1>Hi Ectype Support, </h1>
+          <p>This is to request for the payout of my referral balance.</p>
+          <p>Thank you!</p>
+        </div>
+        <div class="container">
+          <footer>
+            <p>Cheers, {{receiver}}</p>
+          </footer>
+        </div>
+      </section>
+    {% endblock content %}
+  </body>
+</html>
+<style>
+  .centered {
+    text-align: center;
+  }
+
+  .centered img {
+    display: block;
+    margin: 0 auto;
+  }
+</style>

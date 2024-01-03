@@ -1,0 +1,97 @@
+python-slugify  # https://github.com/un33k/python-slugify
+Pillow # https://github.com/python-pillow/Pillow
+argon2-cffi  # https://github.com/hynek/argon2_cffi
+whitenoise  # https://github.com/evansd/whitenoise
+redis  # https://github.com/redis/redis-py
+hiredis  # https://github.com/redis/hiredis-py
+django-crispy-forms
+celery  # pyup: < 6.0  # https://github.com/celery/celery
+django-celery-beat  # https://github.com/celery/django-celery-beat
+flower  # https://github.com/mher/flower
+dj-database-url
+# Django
+# ------------------------------------------------------------------------------
+django  # pyup: < 5.0  # https://www.djangoproject.com/
+django-environ  # https://github.com/joke2k/django-environ
+django-model-utils  # https://github.com/jazzband/django-model-utils
+django-allauth  # https://github.com/pennersr/django-allauth
+django-crispy-forms # https://github.com/django-crispy-forms/django-crispy-forms
+crispy-bootstrap5 # https://github.com/django-crispy-forms/crispy-bootstrap5
+django-redis  # https://github.com/jazzband/django-redis
+# Django REST Framework
+djangorestframework  # https://github.com/encode/django-rest-framework
+djangorestframework_simplejwt  # https://github.com/jazzband/djangorestframework-simplejwt
+django-cors-headers  # https://github.com/adamchainz/django-cors-headers
+dj-rest-auth # https://dj-rest-auth.readthedocs.io/
+# DRF-spectacular for api documentation
+drf-spectacular  # https://github.com/tfranzel/drf-spectacular
+djoser  # https://github.com/sunscrapers/djoser
+pyotp  # https://github.com/pyotp/pyotp
+pydantic
+django-jsonform # https://django-jsonform.rtfd.io/
+stripe   # https://stripe.com/docs/api/
+django-user-agents
+#2fa auth
+django-otp
+#hashing password
+bcrypt
+
+Werkzeug[watchdog] # https://github.com/pallets/werkzeug
+ipdb  # https://github.com/gotcha/ipdb
+psycopg2  # https://github.com/psycopg/psycopg
+watchfiles  # https://github.com/samuelcolvin/watchfiles
+
+# Testing
+# ------------------------------------------------------------------------------
+mypy  # https://github.com/python/mypy
+django-stubs[compatible-mypy]  # https://github.com/typeddjango/django-stubs
+pytest  # https://github.com/pytest-dev/pytest
+pytest-sugar  # https://github.com/Frozenball/pytest-sugar
+djangorestframework-stubs[compatible-mypy] # https://github.com/typeddjango/djangorestframework-stubs
+
+# Documentation
+# ------------------------------------------------------------------------------
+sphinx  # https://github.com/sphinx-doc/sphinx
+sphinx-autobuild # https://github.com/GaretJax/sphinx-autobuild
+
+# Code quality
+# ------------------------------------------------------------------------------
+flake8  # https://github.com/PyCQA/flake8
+flake8-isort  # https://github.com/gforcada/flake8-isort
+coverage  # https://github.com/nedbat/coveragepy
+black # https://github.com/psf/black
+djlint  # https://github.com/Riverside-Healthcare/djLint
+pylint-django  # https://github.com/PyCQA/pylint-django
+pylint-celery # https://github.com/PyCQA/pylint-celery
+pre-commit  # https://github.com/pre-commit/pre-commit
+
+# Django
+# ------------------------------------------------------------------------------
+factory-boy  # https://github.com/FactoryBoy/factory_boy
+django-debug-toolbar  # https://github.com/jazzband/django-debug-toolbar
+django-extensions  # https://github.com/django-extensions/django-extensions
+django-coverage-plugin  # https://github.com/nedbat/django_coverage_plugin
+pytest-django  # https://github.com/pytest-dev/pytest-django
+django-user-agents
+
+
+gunicorn  # https://github.com/benoitc/gunicorn
+psycopg[c]  # https://github.com/psycopg/psycopg
+sentry-sdk  # https://github.com/getsentry/sentry-python
+
+# Django
+# ------------------------------------------------------------------------------
+django-storages[boto3]  # https://github.com/jschneier/django-storages
+django-anymail[sendgrid] # https://github.com/anymail/django-anymail
+python_dotenv
+
+# Monitoring
+# -----------------------------------------------------------------------------
+sentry-sdk[django]  # sentry-sdk[django]
+
+
+
+# Flutterwave Payment
+# -----------------------------------------------------------------------------
+cryptography==40.0.2
+pycryptodome==3.17
