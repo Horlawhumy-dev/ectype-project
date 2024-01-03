@@ -1,2 +1,3 @@
-# ectype_bend_beta
-Staging BE Repository responsible for testing
+
+# ectype-project
+For managing, syncing and controlling of trading acounts
